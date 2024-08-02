@@ -9,6 +9,8 @@ double Voltage = 0;
 double VRMS = 0;
 double AmpsRMS = 0;
 
+float getVPP(int sensorPin);
+
 void setup()
 {
   Serial.begin(115200);
